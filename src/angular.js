@@ -4,7 +4,7 @@ import ReactDom from "react-dom";
 
 import Layout from "./react";
 
-const reactDirective = app.directive("react", function(){
+const AngularDirective = app.directive("react", function(){
     return {
         template: '<div id="root"></div>',
         link: function(){
@@ -13,4 +13,4 @@ const reactDirective = app.directive("react", function(){
     }
 })
 
-export default reactDirective;
+export default AngularDirective;
