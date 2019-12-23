@@ -9,3 +9,6 @@
 
 4 `$npm run build` will run the webpack to compile javascript, so, i can link the bundled js in my index.html file
 
+## Note:
+
+You can use `$npm run start` and see your changes on localhost:8080 or you can run `$npm run build` and open your index.html on your browser and refresh to see your changes.

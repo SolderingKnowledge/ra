@@ -6,7 +6,7 @@ module.exports = {
   context: __dirname, //path.join(__dirname, "src"),
   devtool: debug ? "inline-sourcemap" : null,
   entry: {
-    bundle:["./index.js"]
+    bundle:["./index.js", "./src/angular.js"]
 },
   module: {
     loaders: [
